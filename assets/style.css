@@ -33,6 +33,18 @@ a:focus-visible, summary:focus-visible {
   background: white;
   z-index: 10;
 }
+.native-header-name {
+  display: inline;
+  margin-left: 0.3rem;
+  font-size: 0.75em;
+  color: var(--slate-blue);
+}
+.native-name {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.65em;
+  color: var(--slate-blue);
+}
 .skip-link:focus { top: 1rem; }
 .site-header {
   display: flex;
