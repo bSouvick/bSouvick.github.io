@@ -86,6 +86,9 @@ main { padding: 1.75rem 0 3rem; min-height: 65vh; }
   overflow: hidden;
   background: var(--slate-dark);
 }
+.native-header-name {
+  font-size: 0.75em; /* Native name: 75% of the English name */
+}
 .section-banner img {
   position: absolute;
   inset: 0;
